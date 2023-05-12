@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Обратная связь</title> 
+      <link rel="stylesheet" href="styles/style.css" type="text/css"/>
+      <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+      
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="js/script.js" defer></script>
+      
+    
+    </head>
+    <body>
+        <div class="conteiner-feedback" id="conteiner-feedback">
+        <div class="modal-feedback">
+            
+            
+            
+                <form id="feedback_form" class="feedback_form">
+                   
+   <p align="center"><input type="text" name="fio" id="fio" placeholder="ФИО"/></p>
+   <p id="text-fio">введите в поле ФИО корректные даннные </p>
+   <p align="center"><input type="text" name="adress" id="adress" placeholder="адрес"/></p>
+   <p id="text-address">введите в поле адрес корректные даннные </p>
+   <p align="center"> <input type="text" name="tel" id="tel"  placeholder="+7(___)___-__-__"/></p>
+   <p id="text-telephone">введите в поле телефон корректные даннные </p>
+   <p align="center"><input type="text" name="mail" id="mail" placeholder="mail"/></p>
+   <p id="text-mail">введите в поле почта корректные даннные </p>
+   
+   <p align="center"><button type="submit" class='feedback_submeet' id="feedback_submeet" onclick="feedback ()">ОТПРАВИТЬ</button></p>
+   </form>
+   <p align="center" class="modal-title" >Специалитсы свяжутся с Вами в ближайшее время</p>
+   <div id="feedback_result"></div>
+   
+
+   
+        </div>
+        </div>
+        
+
+    </body>
+    
+</html>

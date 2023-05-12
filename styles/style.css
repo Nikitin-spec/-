@@ -1,0 +1,86 @@
+.feedback {
+ 
+}
+.conteiner-feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+   
+}
+.modal-feedback{
+    
+}
+.modal-form {
+    
+}
+.modal-title {
+    display: none;
+    color: #be1116;
+}
+.modal [type="text"] {
+    border: 1px solid #DEDED2;
+}
+#fio {
+border: 1px solid #DEDED2;
+}
+#tel {
+border: 1px solid #DEDED2;
+}
+#adress {
+border: 1px solid #DEDED2;
+}
+#mail {
+border: 1px solid #DEDED2;
+}
+.feedback_submeet {
+    background-color: #be1116;
+    color: #fff;
+    border: 2px solid #be1116;
+}
+.feedback_submeet:hover {
+    background-color: #fff;
+    color: #be1116;
+    border: 2px solid #be1116;
+}
+#text-fio {
+ display: none;   
+ color: #be1116;
+ font-size: 15px;
+ 
+}
+
+#text-address {
+ display: none;   
+ color: #be1116;
+ font-size: 15px;
+ 
+}
+
+#text-telephone {
+ display: none;   
+ color: #be1116;
+ font-size: 15px;
+ 
+}
+
+#text-mail {
+ display: none;   
+ color: #be1116;
+ font-size: 15px;
+ 
+}
+table {
+    border: 2px solid #000000;
+}
+td {
+   border: 2px solid #000000; 
+}
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
